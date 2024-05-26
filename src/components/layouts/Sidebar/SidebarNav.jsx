@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import { SIDEBAR_ITEMS } from "@/constants/Sidebar";
+import SIDEBAR_ITEMS from "@/constants/sidebar";
 import { usePathname } from "next/navigation";
 
 const SidebarNav = () => {
