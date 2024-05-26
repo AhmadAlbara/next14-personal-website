@@ -6,7 +6,7 @@ import { TbWriting } from "react-icons/tb";
 
 const ICON_SIZE = 24;
 
-export const SIDEBAR_ITEMS = [
+export default SIDEBAR_ITEMS = [
   { icon: <AiOutlineHome size={ICON_SIZE} />, pathname: "/", label: "Home" },
   {
     icon: <SiAboutdotme size={ICON_SIZE} />,
