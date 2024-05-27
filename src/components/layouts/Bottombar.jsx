@@ -8,7 +8,7 @@ import ThemeButton from "../elements/ThemeButton";
 const Bottombar = () => {
   const pathname = usePathname();
   return (
-    <nav className="fixed z-20 -translate-x-1/2 backdrop-blur-3xl bottom-4 left-1/2 flex items-center justify-evenly w-[85vw] max-w-md rounded-full p-2 md:hidden">
+    <nav className="shadow-md  shadow-primary-gradient bg-primary-dark fixed z-20 -translate-x-1/2 backdrop-blur-3xl bottom-4 left-1/2 flex items-center justify-evenly w-[85vw] max-w-md rounded-full p-2 md:hidden">
       {BOTTOMBAR_ITEMS.map((item, index) => {
         const isActivePage = pathname === item.pathname;
         return (
