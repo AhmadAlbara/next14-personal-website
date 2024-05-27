@@ -33,7 +33,7 @@ const PROJECTCARD_CONTENTS = [
     description:
       "Developed a comprehensive Anime List website utilizing Next.js and Tailwind CSS, integrated with the Jikan API to provide detailed information on a vast array of anime titles.",
     techStack: TECH_STACK_KYOTO_NET,
-    image: "/projects/kyoto.net.png",
+    image: "/projects/kyoto.png",
     imageAlt: "Kyoto.net Website Screenshot",
   },
 ];
