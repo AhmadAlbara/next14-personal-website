@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "./Sidebar";
+import Bottombar from "./Bottombar";
 
 const Layouts = ({ children }) => {
   return (
@@ -7,6 +8,7 @@ const Layouts = ({ children }) => {
       <Sidebar />
       <div className="lg:max-w-5xl scrollbar scrollbar-track-red-500 ">
         <main>{children}</main>
+        <Bottombar />
       </div>
     </div>
   );
