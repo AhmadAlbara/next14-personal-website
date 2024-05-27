@@ -20,7 +20,7 @@ const InputForm = ({ name, type, rule, error, register, placeholder }) => {
         type={type}
         placeholder={placeholder}
         {...register(name, rule)}
-        className="w-full px-2 py-3 mt-2 text-sm bg-transparent border rounded-md outline-none"
+        className="w-full px-2 py-3 mt-2 text-sm bg-transparent border rounded-md outline-none "
         autoComplete={name}
       />
     </div>
