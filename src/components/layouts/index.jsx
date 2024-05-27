@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import Bottombar from "./Bottombar";
 import Footer from "./Footer";
-
+import { Analytics } from "@vercel/analytics/react";
 const Layouts = ({ children }) => {
   return (
     <div className="md:flex lg:m-auto lg:max-w-5xl lg:justify-center">
@@ -11,6 +11,7 @@ const Layouts = ({ children }) => {
         <main>{children}</main>
         <Bottombar />
         <Footer />
+        <Analytics />
       </div>
     </div>
   );
