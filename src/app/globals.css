@@ -139,4 +139,8 @@ table {
   *::-webkit-scrollbar-track {
     background: transparent;
   }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ff76ce transparent;
+  }
 }
