@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import { HiOutlineCode } from "react-icons/hi";
 
 export default function Stacks() {
-  console.log(STACKS);
   const stacksInArray = Object.entries(STACKS).sort(() => Math.random() - 0.5);
 
   return (

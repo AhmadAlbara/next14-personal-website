@@ -1,17 +1,15 @@
 import PageTitle from "@/components/elements/PageTitle";
 import React from "react";
+import AboutText from "./AboutText";
+import FavoriteStacks from "./FavoriteStacks";
 
 const About = () => {
   return (
     <div className="p-8 ">
-      <PageTitle title="About" description="My story become a developer" />
+      <PageTitle title="About" description="My story become a web developer." />
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque
-        animi dolore officia blanditiis quia? Dolor distinctio illo nobis animi,
-        culpa velit at inventore, dolorem quasi tenetur ullam eaque
-        consequuntur.
-      </p>
+      <AboutText />
+      <FavoriteStacks />
     </div>
   );
 };
