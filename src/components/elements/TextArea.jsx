@@ -20,7 +20,7 @@ const TextArea = ({ name, rule, error, register, placeholder }) => {
         {...register(name, rule)}
         rows={4}
         cols={4}
-        className="w-full px-2 py-3 mt-2 text-sm bg-transparent rounded-md border__color secondary placeholder:text-sm placeholder:text-neutral-500 focus:outline-double focus:outline-neutral-500 md:text-base md:placeholder:text-base"
+        className="w-full px-2 py-3 mt-2 text-sm bg-transparent border rounded-md outline-none"
       />
     </div>
   );
