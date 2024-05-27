@@ -32,6 +32,7 @@ const ProjectCard = ({
             className="w-auto h-auto rounded-t-md"
             width={1920}
             height={1080}
+            unoptimized={true}
             src={image}
             alt={imageAlt}
             loading="lazy"
